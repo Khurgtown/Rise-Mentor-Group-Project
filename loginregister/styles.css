@@ -16,6 +16,7 @@ main {
 }
 
 .box {
+    position: relative;
     width: 100%;
     max-width: 1020px;
     height: 640px;
@@ -26,6 +27,27 @@ main {
 
 .inner-box {
     position: absolute;
-    width: 100%;
+    width: calc(100% - 4.1rem);
+    height: calc(100% - 4.1rem);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.forms-wrap {
+    position: absolute;
     height: 100%;
+    width: 45%;
+    top: 0;
+    left: 0;
+    background-color: blue;
+}
+
+.carousel {
+    position: absolute;
+    height: 100%;
+    width: 55%;
+    left: 45%;
+    top: 0;
+    background-color: aliceblue;
 }
