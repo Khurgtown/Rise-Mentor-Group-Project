@@ -5,18 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login and Signup</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="">
 </head>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Space+Grotesk:wght@700&display=swap');
+</style>
 
 <body>
     <main>
         <div class="box">
             <div class="inner-box">
                 <div class="forms-wrap">
-                    <div class="carousel">
+                    <form action="index.html" autocomplete="off" class="sign-in-form"></form></div>
+                        <div class="logo">
+                            <img src="starr light square.png" alt="starr logo" >
+                            <h2>starr</h2>
+                        </div>
+
+                        <div class="heading">
+                            <h1>Welcome Back</h1>
+                            <h6>No account?</h6>
+                            <a href="#" class="toggle">Create Account</a>
+                        </div>
+
+
+                        <div class="actual-form">
+                            <div class="input-wrap">
+                                <input 
+                                    type="text" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="name" 
+                                    required/>
+                                <label for="name">Full Name</label>
+                            </div>
+
+                            <div class="input-wrap">
+                                <input 
+                                    type="password" 
+                                    minlength="4" 
+                                    class="input-field" 
+                                    autocomplete="off" 
+                                    id="pass" 
+                                    required/>
+                                <label for="pass">password</label>
+                            </div>
+  
+                            <input type="submit" value="Sign In" class="sign-btn"/>
+
+                            <p class="text">Forgot your login details? No problem!
+                            <a href="#">Get Help</a></p>
+                        </div>
+                    </form>
+
 
                         
-                    </div>
-                </div>
+                    
+                <div class="carousel"></div>
             </div>
         </div>
     </main>

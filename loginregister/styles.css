@@ -8,7 +8,7 @@ main {
     width: 100%;
     min-height: 100vh;
     overflow: hidden;
-    background-color: #65CBF2;
+    background-color: rgb(219, 243, 255);
     padding: 2rem;
     display: flex;
     align-items: center;
@@ -32,7 +32,10 @@ main {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 3.3rem;
 }
+
 
 .forms-wrap {
     position: absolute;
@@ -40,7 +43,7 @@ main {
     width: 45%;
     top: 0;
     left: 0;
-    background-color: blue;
+    
 }
 
 .carousel {
@@ -49,5 +52,61 @@ main {
     width: 55%;
     left: 45%;
     top: 0;
-    background-color: aliceblue;
+    background-color: #65CBF2;
+    
+}
+
+form {
+    max-width: 260px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 60px;
+    margin: 0.3rem;
+}
+
+.logo h4 {
+    font-size: 1.1rem;
+    margin-top: -9px;
+    letter-spacing: -0.5px;
+    color: blueviolet;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    padding: 5px;
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+}
+
+label {
+    font-family: 'DM Mono', monospace
 }
