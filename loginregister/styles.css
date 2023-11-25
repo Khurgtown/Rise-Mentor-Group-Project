@@ -53,6 +53,7 @@ main {
     left: 45%;
     top: 0;
     background-color: #65CBF2;
+    border-radius: 3.3rem;
     
 }
 
@@ -62,7 +63,7 @@ form {
     margin: 0 auto;
     height: 100%;
     display: flex;
-    
+
 }
 
 .logo {
