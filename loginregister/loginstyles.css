@@ -315,7 +315,7 @@ main.sign-up-mode form.sign-in-form {
     display: block;
     width: 0.5rem;
     height: 0.5rem;
-    background-color: #aaa;
+    background-color: white;
     margin: 0 0.25rem;
     border-radius: 50%;
     cursor: pointer;
