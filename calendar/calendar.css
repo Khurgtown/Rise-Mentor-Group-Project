@@ -1,0 +1,116 @@
+*{
+    margin: 2;
+    padding: 2;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'Space Grotesk', sans-serif;
+    }
+    
+    html{
+    font-size: 120%;
+    }
+    
+    .container{
+    width: 100%;
+    height: 100%;
+    background-color: #dbf3ff;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+    }
+    
+    .student_calendar{
+    width: 60rem;
+    height: 40rem;
+    background-color: white;
+    box-shadow: 0 0.5rem 3rem rgba(0, 0, 0, 0.4);
+    }
+    
+    .month{
+    width: 100%;
+    height: 19rem;
+    background-color: #65cbf2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    }
+    
+    .month i {
+    font-size: 4.0rem;
+    cursor: pointer;
+    }
+    
+    .month h1{
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    margin-bottom: 0.3rem;
+    font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    .month p{
+    font-size: 1.5rem;
+    }
+    
+    .weekdays{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 0 0.4rem;
+    font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    .weekdays div{
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 0.02rem;
+    width: calc(59.2rem/7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Space Grotesk', sans-serif;
+    }
+    
+    .days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.2rem;
+    }
+    
+    .days div{
+    font-size: 1rem;
+    margin: .2rem;
+    width: calc(56.8rem/7);
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s;
+    font-family: 'Poppins', sans-serif;
+    }
+    
+    .days div:hover:not(.today){
+    background-color: #dbf3ff;
+    border: 0.2rem solid #635656;
+    cursor: pointer;
+    }
+    
+    .prev-date,
+    .next-date{
+    opacity: 0.3;
+    }
+    
+    .today{
+    background-color: #dbf3ff;
+    }
+
+    .to-do_list {
+        padding-left: 60px;
+    }
